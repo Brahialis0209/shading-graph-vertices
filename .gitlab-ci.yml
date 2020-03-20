@@ -1,0 +1,17 @@
+image: python:3-slim
+before_script:
+    - pip3 install flake8
+stages:
+    - static_analysis
+variables:
+    PYTHON: "python3"
+static_analysis:
+    stage: static_analysis
+    variables:
+        SRC1: "src test main.py"
+        SRC2: "src test my_queue.py"
+        SRC3: "src test my_stack.py"
+    script:
+        - ${PYTHON} -m flake8 ${SRC1}
+        - ${PYTHON} -m flake8 ${SRC2}
+        - ${PYTHON} -m flake8 ${SRC3}
