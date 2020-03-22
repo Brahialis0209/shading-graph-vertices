@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -368,7 +368,28 @@
       <option name="project" value="LOCAL" />
       <updated>1584905926614</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add &quot;draw&quot; flag for pictures&#10;Change graphviz2">
+      <created>1584906005410</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1584906005410</updated>
+    </task>
+    <task id="LOCAL-00035" summary="delete mypy for src">
+      <created>1584906204869</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1584906204869</updated>
+    </task>
+    <task id="LOCAL-00036" summary="delete mypy for src">
+      <created>1584906224547</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1584906224547</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,8 +406,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="in __init__.py comment lines" />
-    <MESSAGE value="change order" />
     <MESSAGE value="add * in import" />
     <MESSAGE value="add init in test" />
     <MESSAGE value="add apt" />
@@ -410,6 +429,8 @@
     <MESSAGE value="delete tests from flake-8 because it's don't &#10;allow true put imports" />
     <MESSAGE value="add &quot;draw&quot; flag for pictures graph&#10;in test no, because lib dont&quot;work in dockers" />
     <MESSAGE value="add &quot;draw&quot; flag for pictures&#10;Change graphviz" />
-    <option name="LAST_COMMIT_MESSAGE" value="add &quot;draw&quot; flag for pictures&#10;Change graphviz" />
+    <MESSAGE value="add &quot;draw&quot; flag for pictures&#10;Change graphviz2" />
+    <MESSAGE value="delete mypy for src" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete mypy for src" />
   </component>
 </project>
