@@ -2,7 +2,7 @@ import sys
 
 from src.logic.graph_traversal import traversal_graph
 from src.logic.pars_file import pars_config_file
-from tests.parse_test_config_dates import parse_test_conf_files
+from tests.parse_test_config_dates import parser_tests
 
 
 def main():
@@ -13,7 +13,7 @@ def main():
         print("config file error!")
         return
     parameter_cmd = parameters_cmd[1]
-    path_first_test = parse_test_conf_files(parameter_cmd)
+    path_first_test = parser_tests(parameter_cmd)
     start_node, traversal, graph = pars_config_file(path_first_test)
     visited = traversal_graph(graph, start_node, traversal)
     if traversal == "DFS":

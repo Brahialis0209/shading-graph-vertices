@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="" />
+    <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/tests/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/parse_test_config_dates.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/parse_test_config_dates.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584899314656</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add sys.path.append('../') in main by flake-8">
+      <created>1584899448997</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1584899448997</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,7 +351,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix &quot;no newline at end of file&quot; in my_queue.py" />
     <MESSAGE value="Added directories, changed the bypass function" />
     <MESSAGE value="Change line in main where i unused result my algorithm" />
     <MESSAGE value="Add test" />
@@ -366,6 +375,7 @@
     <MESSAGE value="add mypy" />
     <MESSAGE value="fix mypy errors in pars_file.py" />
     <MESSAGE value="rename true dir name for mypy" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename true dir name for mypy" />
+    <MESSAGE value="add sys.path.append('../') in main by flake-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sys.path.append('../') in main by flake-8" />
   </component>
 </project>
