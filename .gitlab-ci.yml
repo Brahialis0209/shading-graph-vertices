@@ -12,9 +12,9 @@ static_analysis:
     stage: static_analysis
     script:
         - flake8 --max-line-length=120 src/*.py
-        - flake8 --max-line-length=120 test/*.py
+        - flake8 --max-line-length=120 tests/*.py
         - mypy src/*.py
-        - mypy test/*.py
+        - mypy tests/*.py
 test:
     stage: test
     script:
