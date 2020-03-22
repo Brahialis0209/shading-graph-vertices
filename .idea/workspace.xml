@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +310,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584898691342</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="fix mypy errors in pars_file.py">
+      <created>1584899187530</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1584899187530</updated>
+    </task>
+    <task id="LOCAL-00027" summary="rename true dir name for mypy">
+      <created>1584899314656</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1584899314656</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,8 +341,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done work without CI" />
-    <MESSAGE value="add CI files" />
     <MESSAGE value="fix &quot;no newline at end of file&quot; in my_queue.py" />
     <MESSAGE value="Added directories, changed the bypass function" />
     <MESSAGE value="Change line in main where i unused result my algorithm" />
@@ -355,6 +364,8 @@
     <MESSAGE value="add new flake for tests" />
     <MESSAGE value="fix line bi traversal" />
     <MESSAGE value="add mypy" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mypy" />
+    <MESSAGE value="fix mypy errors in pars_file.py" />
+    <MESSAGE value="rename true dir name for mypy" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename true dir name for mypy" />
   </component>
 </project>
