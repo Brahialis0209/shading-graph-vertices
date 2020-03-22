@@ -7,11 +7,6 @@ variables:
     PYTHON: "python3"
 static_analysis:
     stage: static_analysis
-    variables:
-        SRC1: "src test main.py"
-        SRC2: "src test my_queue.py"
-        SRC3: "src test my_stack.py"
     script:
-        - ${PYTHON} -m flake8 ${SRC1}
-        - ${PYTHON} -m flake8 ${SRC2}
-        - ${PYTHON} -m flake8 ${SRC3}
+        - flake8 --max-line-length=120 src/*.py
+

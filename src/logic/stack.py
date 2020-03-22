@@ -1,4 +1,4 @@
-class MyStack:
+class Stack:
     def __init__(self):
         self.stack = list()
 
@@ -9,13 +9,13 @@ class MyStack:
         try:
             return self.stack[-1]
         except IndexError:
-            print("стек пуст!")
+            print("stack empty!")
 
     def pop(self):
         try:
             del self.stack[-1]
         except IndexError:
-            print("стек пуст!")
+            print("stack empty!")
 
     def empty(self):
         return len(self.stack) == 0

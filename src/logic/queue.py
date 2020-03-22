@@ -1,4 +1,4 @@
-class MyQueue:
+class Queue:
     def __init__(self):
         self.queue = list()
 
@@ -9,13 +9,13 @@ class MyQueue:
         try:
             return self.queue[0]
         except IndexError:
-            print("очередь пуста!")
+            print("queue empty!")
 
     def pop(self):
         try:
             del self.queue[0]
         except IndexError:
-            print("очередь пуста!")
+            print("queue empty!")
 
     def empty(self):
         return len(self.queue) == 0
