@@ -16,7 +16,8 @@ def main():
     parameter_cmd = parameters_cmd[1]
     path_first_test = parser_tests(parameter_cmd)
     start_node, traversal, graph = pars_config_file(path_first_test)
-    visited = traversal_graph(graph, start_node, traversal)
+    draw = False
+    visited = traversal_graph(graph, start_node, traversal, draw)
     if traversal == "DFS":
         assert (visited == ['1', '4', '3', '7', '8', '2', '6', '5'])
     if traversal == "BFS":
