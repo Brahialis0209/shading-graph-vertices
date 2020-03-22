@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -403,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584907344889</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Correct readme">
+      <created>1584907803028</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1584907803028</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,7 +428,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add apt" />
     <MESSAGE value="add empty __init__" />
     <MESSAGE value="add empty __init__ _ 2" />
     <MESSAGE value="add empty __init__ _ 3" />
@@ -445,6 +452,7 @@
     <MESSAGE value="delete mypy for src" />
     <MESSAGE value="delete mypy, conflict with graphviz" />
     <MESSAGE value="Add readme." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add readme." />
+    <MESSAGE value="Correct readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct readme" />
   </component>
 </project>
