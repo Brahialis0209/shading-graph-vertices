@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/graph_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/graph_traversal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -307,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584897769552</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add mypy">
+      <created>1584898691342</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1584898691342</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,6 +354,7 @@
     <MESSAGE value="add init in dates3" />
     <MESSAGE value="add new flake for tests" />
     <MESSAGE value="fix line bi traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix line bi traversal" />
+    <MESSAGE value="add mypy" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mypy" />
   </component>
 </project>

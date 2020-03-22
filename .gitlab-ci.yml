@@ -12,7 +12,6 @@ static_analysis:
     stage: static_analysis
     script:
         - flake8 --max-line-length=120 src/*.py
-        - flake8 --max-line-length=120 src/logic/*.py
         - flake8 --max-line-length=120 test/*.py
         - mypy src/*.py
         - mypy test/*.py
