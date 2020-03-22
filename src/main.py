@@ -13,7 +13,7 @@ def main():
         return
     parameter_cmd = parameters_cmd[1]
     start_node, traversal, graph = pars_config_file(parameter_cmd)
-    visited = traversal_graph(graph, start_node, traversal)
+    traversal_graph(graph, start_node, traversal)
 
 
 if __name__ == "__main__":
