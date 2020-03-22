@@ -19,7 +19,7 @@ test:
     script:
         - echo "test started..."
         - cd tests
-        - python3 main.py
+        - python3 main.py config
         - echo "Example test over."
 
 
