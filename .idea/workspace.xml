@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
-    </list>
+    <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +261,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584894481534</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add config in parametrs for RUN">
+      <created>1584894629223</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1584894629223</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add init in dates">
+      <created>1584894797468</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1584894797468</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,6 +310,8 @@
     <MESSAGE value="add empty __init__ _ 3" />
     <MESSAGE value="add path" />
     <MESSAGE value="add graphviz module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add graphviz module" />
+    <MESSAGE value="add config in parametrs for RUN" />
+    <MESSAGE value="add init in dates" />
+    <option name="LAST_COMMIT_MESSAGE" value="add init in dates" />
   </component>
 </project>
