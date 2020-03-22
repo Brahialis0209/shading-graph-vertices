@@ -2,7 +2,7 @@ import sys
 
 from src.logic.graph_traversal import traversal_graph
 from src.logic.pars_file import pars_config_file
-from tests.parse_test_config_dates import parser_tests
+from tests.parse_test import parser_tests
 
 
 def main():
