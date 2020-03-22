@@ -2,8 +2,8 @@ image: python:3-slim
 before_script:
     - pip3 install flake8
 stages:
-    - static_analysis
     - test
+    - static_analysis
 variables:
     PYTHON: "python3"
 static_analysis:
