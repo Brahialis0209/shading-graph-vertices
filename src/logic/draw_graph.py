@@ -1,8 +1,8 @@
-from graphviz import Digraph
+import graphviz
 
 
 def draw_graph(graph: dict, used: list):
-    dot = Digraph()
+    dot = graphviz.Digraph()
     paths = graph.items()
 
     for path in paths:
