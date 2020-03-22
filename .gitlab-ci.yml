@@ -3,6 +3,7 @@ before_script:
     - pip3 install flake8
 stages:
     - static_analysis
+    - test
 variables:
     PYTHON: "python3"
 static_analysis:
@@ -10,4 +11,13 @@ static_analysis:
     script:
         - flake8 --max-line-length=120 src/*.py
         - flake8 --max-line-length=120 test/*.py
+test:
+    stage: test
+    script:
+        - echo "test started..."
+        - cd tests
+        - python main.py
+        - echo "Example test over."
+
+
 
