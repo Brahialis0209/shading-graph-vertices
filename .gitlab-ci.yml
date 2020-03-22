@@ -2,7 +2,6 @@ image: python:3-slim
 before_script:
     - pip3 install flake8
     - pip3 install graphviz
-
 stages:
     - test
     - static_analysis
@@ -11,8 +10,8 @@ variables:
 static_analysis:
     stage: static_analysis
     script:
-        - pip3 install flake8
         - flake8 --max-line-length=120 src/*.py
+        - flake8 --max-line-length=120 src/logic/*.py
         - flake8 --max-line-length=120 test/*.py
 test:
     stage: test

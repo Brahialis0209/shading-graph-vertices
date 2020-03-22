@@ -1,5 +1,4 @@
 import sys
-
 sys.path.append('../')
 
 from src.logic.graph_traversal import *
@@ -25,7 +24,4 @@ def main():
 
 
 if __name__ == '__main__':
-    import sys
-
-    sys.path.append('../')
     main()
