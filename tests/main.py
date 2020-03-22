@@ -1,9 +1,10 @@
 import sys
 
+sys.path.append('../')
+
 from src.logic.graph_traversal import *
 from src.logic.pars_file import *
 from tests.parse_test_config_dates import *
-
 
 
 def main():
@@ -24,4 +25,7 @@ def main():
 
 
 if __name__ == '__main__':
+    import sys
+
+    sys.path.append('../')
     main()
