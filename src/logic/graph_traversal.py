@@ -14,7 +14,7 @@ def traversal_algorithm(graph: dict, start_element: str, container_type):
         work_node = container.get()
         container.pop()
         visited[work_node] = work_node
-        draw_graph(graph, list(visited.keys()))
+        # draw_graph(graph, list(visited.keys()))
         time.sleep(1)
 
         for adjacent_node in graph[work_node]:
