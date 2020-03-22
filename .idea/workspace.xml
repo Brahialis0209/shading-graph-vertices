@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/graph_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/graph_traversal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -293,7 +293,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584895209364</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add new flake for tests">
+      <created>1584897526669</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1584897526669</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix line bi traversal">
+      <created>1584897769552</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1584897769552</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,6 +346,8 @@
     <MESSAGE value="add init in dates" />
     <MESSAGE value="add init in dates2" />
     <MESSAGE value="add init in dates3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add init in dates3" />
+    <MESSAGE value="add new flake for tests" />
+    <MESSAGE value="fix line bi traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix line bi traversal" />
   </component>
 </project>

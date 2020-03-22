@@ -1,5 +1,6 @@
 import time
 
+# from src.logic.draw_graph import draw_graph
 from src.logic.queue import Queue
 from src.logic.stack import Stack
 
