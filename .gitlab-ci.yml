@@ -4,8 +4,8 @@ before_script:
     - pip3 install graphviz
     - pip3 install mypy
 stages:
-    - test
     - static_analysis
+    - test
 variables:
     PYTHON: "python3"
 static_analysis:
