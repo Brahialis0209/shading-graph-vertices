@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584890266224</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add * in import">
+      <created>1584890578012</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584890578012</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add init in test">
+      <created>1584890755587</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584890755587</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +246,8 @@
     <MESSAGE value="add __init__.py files in director's" />
     <MESSAGE value="in __init__.py comment lines" />
     <MESSAGE value="change order" />
-    <option name="LAST_COMMIT_MESSAGE" value="change order" />
+    <MESSAGE value="add * in import" />
+    <MESSAGE value="add init in test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add init in test" />
   </component>
 </project>
