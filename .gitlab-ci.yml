@@ -3,8 +3,8 @@ before_script:
     - pip3 install flake8
     - pip3 install graphviz
 stages:
-    - test
     - static_analysis
+    - test
 variables:
     PYTHON: "python3"
 static_analysis:
