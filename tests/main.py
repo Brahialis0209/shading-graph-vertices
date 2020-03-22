@@ -1,8 +1,9 @@
 import sys
 
-from src.logic.graph_traversal import traversal_graph
-from src.logic.pars_file import pars_config_file
-from tests.parse_test_config_dates import parse_test_conf_files
+from src.logic.graph_traversal import *
+from src.logic.pars_file import *
+from tests.parse_test_config_dates import *
+
 
 
 def main():
