@@ -1,8 +1,6 @@
 import unittest
 import sys
-
 sys.path.append('../')
-
 from src.alg.graph_traversal import traversal_graph
 from src.alg.pars_file import pars_config_file
 from tests.parse_test import parser_tests
@@ -22,14 +20,12 @@ class TestTraversalGraph(unittest.TestCase):
 
     def test_first(self):
         start_node, traversal, graph = pars_config_file(self.test_path)
-        draw = False
-        visited = traversal_graph(graph, start_node, traversal, draw)
+        visited = traversal_graph(graph, start_node, traversal, False)
         self.assertEqual(visited, ['1', '4', '3', '7', '8', '2', '6', '5'])
 
     def test_second(self):
         start_node, traversal, graph = pars_config_file(self.test_path)
-        draw = False
-        visited = traversal_graph(graph, start_node, traversal, draw)
+        visited = traversal_graph(graph, start_node, traversal, False)
         self.assertEqual(visited, ['1', '2', '3', '4', '5', '6', '7', '8'])
 
 

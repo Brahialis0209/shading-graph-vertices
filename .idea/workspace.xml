@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config" beforeDir="false" afterPath="$PROJECT_DIR$/src/config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/draw_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/draw_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/graph_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/graph_traversal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/pars_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/pars_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alg/draw_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/alg/draw_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alg/graph_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/alg/graph_traversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alg/pars_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/alg/pars_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -461,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586342874351</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="rename dir name">
+      <created>1586345205076</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1586345205076</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -478,7 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add empty __init__ _ 2" />
     <MESSAGE value="add empty __init__ _ 3" />
     <MESSAGE value="add path" />
     <MESSAGE value="add graphviz module" />
@@ -503,7 +508,8 @@
     <MESSAGE value="Add readme." />
     <MESSAGE value="Correct readme" />
     <MESSAGE value="add unittest" />
-    <option name="LAST_COMMIT_MESSAGE" value="add unittest" />
+    <MESSAGE value="rename dir name" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename dir name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
