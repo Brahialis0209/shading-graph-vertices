@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/requirements" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/alg/draw_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/alg/draw_graph.py" afterDir="false" />
@@ -467,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586345205076</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="add requirements">
+      <created>1586349689872</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1586349689872</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -484,7 +492,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add empty __init__ _ 3" />
     <MESSAGE value="add path" />
     <MESSAGE value="add graphviz module" />
     <MESSAGE value="add config in parametrs for RUN" />
@@ -509,7 +516,8 @@
     <MESSAGE value="Correct readme" />
     <MESSAGE value="add unittest" />
     <MESSAGE value="rename dir name" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename dir name" />
+    <MESSAGE value="add requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="add requirements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
