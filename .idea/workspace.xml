@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="" />
+    <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,13 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584176898293</updated>
-    </task>
-    <task id="LOCAL-00001" summary="done work without CI">
-      <created>1584705053868</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1584705053868</updated>
     </task>
     <task id="LOCAL-00002" summary="add CI files">
       <created>1584705862918</created>
@@ -501,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586350652679</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="del graphiz">
+      <created>1586351385950</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1586351385951</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -518,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add init in dates2" />
     <MESSAGE value="add init in dates3" />
     <MESSAGE value="add new flake for tests" />
     <MESSAGE value="fix line bi traversal" />
@@ -543,7 +544,8 @@
     <MESSAGE value="add requirements.txt file" />
     <MESSAGE value="add requirements.txt file2" />
     <MESSAGE value="del requirements.tx" />
-    <option name="LAST_COMMIT_MESSAGE" value="del requirements.tx" />
+    <MESSAGE value="del graphiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="del graphiz" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
