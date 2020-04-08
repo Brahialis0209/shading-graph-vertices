@@ -1,4 +1,6 @@
-def parser_tests(parameter_cmd):
-    with open(parameter_cmd) as config_handler:
-        path_first = config_handler.readline().replace('\n', '')
-    return path_first
+def parser_tests(config_name):
+    with open(config_name) as config_handler:
+        paths = list()
+        for path in config_handler.readlines():
+            paths.append(path.replace('\n', ''))
+    return paths

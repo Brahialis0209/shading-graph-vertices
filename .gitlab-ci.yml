@@ -16,7 +16,7 @@ test:
     script:
         - echo "test started..."
         - cd tests
-        - python3 main.py config
+        - python -m unittest -v main.py
         - echo "Example test over."
 
 

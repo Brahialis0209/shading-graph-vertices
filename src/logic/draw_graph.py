@@ -7,10 +7,8 @@ def draw_graph(graph: dict, used: list):
 
     for path in paths:
         start_node = path[0]
-        if start_node in used:
-            dot.node(start_node, start_node, color="red")
-        else:
-            dot.node(start_node, start_node)
+        color = "red" if start_node in used else "black"
+        dot.node(start_node, start_node, color=color)
 
     for path in paths:
         start_node = path[0]
