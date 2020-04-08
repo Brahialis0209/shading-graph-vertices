@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/alg/pars_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/alg/pars_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config" beforeDir="false" afterPath="$PROJECT_DIR$/src/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flake8" beforeDir="false" afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,20 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584176898293</updated>
-    </task>
-    <task id="LOCAL-00003" summary="fix &quot;no newline at end of file&quot; in my_queue.py">
-      <created>1584706014088</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1584706014088</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added directories, changed the bypass function">
-      <created>1584885673459</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1584885673459</updated>
     </task>
     <task id="LOCAL-00005" summary="Change line in main where i unused result my algorithm">
       <created>1584886646232</created>
@@ -506,7 +490,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586355225882</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="add .fkae">
+      <created>1586356561629</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1586356561630</updated>
+    </task>
+    <task id="LOCAL-00053" summary="add .flake">
+      <created>1586356644806</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1586356644806</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,8 +521,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add new flake for tests" />
-    <MESSAGE value="fix line bi traversal" />
     <MESSAGE value="add mypy" />
     <MESSAGE value="fix mypy errors in pars_file.py" />
     <MESSAGE value="rename true dir name for mypy" />
@@ -548,7 +544,9 @@
     <MESSAGE value="del requirements.tx" />
     <MESSAGE value="del graphiz" />
     <MESSAGE value="add req.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="add req.txt" />
+    <MESSAGE value="add .fkae" />
+    <MESSAGE value="add .flake" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .flake" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
