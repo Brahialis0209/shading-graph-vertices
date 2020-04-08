@@ -8,5 +8,5 @@ def pars_config_file(parameter_cmd: str):
         traversal = config_handler.readline().split('=')[1].replace("\n", '')
         for line in config_handler:
             from_node, to_node = line.split()
-            graph[from_node] = to_node if to_node != "empty" else []
+            graph[from_node].extend(to_node if to_node != "empty" else [])
     return start_node, traversal, graph
