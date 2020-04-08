@@ -6,12 +6,9 @@ def pars_config_file(parameter_cmd: str):
         graph: defaultdict = defaultdict(list)
         start_node = config_handler.readline().split('=')[1].replace("\n", '')
         traversal = config_handler.readline().split('=')[1].replace("\n", '')
+
         for line in config_handler:
-            item = line.split()
-            from_node = item[0]
-            to_node = item[1]
-            if to_node == 'empty':
-                graph[from_node] = []
-            else:
-                graph[from_node].append(to_node)
+            from_node, to_node = line.split()
+            graph[from_node] = to_node if to_node != "empty" else []
+
     return start_node, traversal, graph

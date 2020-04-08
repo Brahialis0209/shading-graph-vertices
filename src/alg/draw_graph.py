@@ -1,9 +1,11 @@
 from graphviz import Digraph
+import time
 
 
 def draw_graph(graph: dict, used: list):
     dot = Digraph()
     paths = graph.items()
+    time.sleep(1)
 
     for path in paths:
         start_node = path[0]

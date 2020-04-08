@@ -3,8 +3,8 @@ import sys
 
 sys.path.append('../')
 
-from src.logic.graph_traversal import traversal_graph
-from src.logic.pars_file import pars_config_file
+from src.alg.graph_traversal import traversal_graph
+from src.alg.pars_file import pars_config_file
 from tests.parse_test import parser_tests
 
 
