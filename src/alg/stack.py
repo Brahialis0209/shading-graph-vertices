@@ -9,4 +9,4 @@ class Stack:
         return self.stack.pop(-1)
 
     def empty(self):
-        return len(self.stack) == 0
+        return not bool(self.stack)
