@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/alg/draw_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/alg/draw_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/alg/graph_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/alg/graph_traversal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/alg/pars_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/alg/pars_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="91d09109-a30e-4d12-95db-68de8e7f9906" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -475,7 +466,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586349689872</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="add requirements.txt">
+      <created>1586349927222</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1586349927222</updated>
+    </task>
+    <task id="LOCAL-00046" summary="add requirements.txt file">
+      <created>1586350000835</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1586350000835</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -492,8 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add path" />
-    <MESSAGE value="add graphviz module" />
     <MESSAGE value="add config in parametrs for RUN" />
     <MESSAGE value="add init in dates" />
     <MESSAGE value="add init in dates2" />
@@ -517,7 +520,9 @@
     <MESSAGE value="add unittest" />
     <MESSAGE value="rename dir name" />
     <MESSAGE value="add requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="add requirements" />
+    <MESSAGE value="add requirements.txt" />
+    <MESSAGE value="add requirements.txt file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add requirements.txt file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
