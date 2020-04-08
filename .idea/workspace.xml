@@ -494,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586350462944</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="del requirements.tx">
+      <created>1586350652679</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1586350652679</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -511,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add init in dates" />
     <MESSAGE value="add init in dates2" />
     <MESSAGE value="add init in dates3" />
     <MESSAGE value="add new flake for tests" />
@@ -536,7 +542,8 @@
     <MESSAGE value="add requirements.txt" />
     <MESSAGE value="add requirements.txt file" />
     <MESSAGE value="add requirements.txt file2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add requirements.txt file2" />
+    <MESSAGE value="del requirements.tx" />
+    <option name="LAST_COMMIT_MESSAGE" value="del requirements.tx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
