@@ -13,7 +13,8 @@ test:
     stage: test
     script:
         - echo "test started..."
-        - python3 -m unittest discover tests/*_test.py
+        - cd tests
+        - python3 -m unittest discover *_test.py
         - echo "Example test over."
 
 
