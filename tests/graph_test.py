@@ -1,7 +1,6 @@
 import unittest
 import sys
 
-sys.path.append('../')
 
 from src.alg.graph_traversal import traversal_graph
 from src.alg.pars_file import pars_config_file
