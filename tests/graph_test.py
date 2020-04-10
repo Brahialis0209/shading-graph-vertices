@@ -1,5 +1,4 @@
 import unittest
-import sys
 
 
 from src.alg.graph_traversal import traversal_graph
