@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 
-def pars_config_file(parameter_cmd: str):
+def pars_example_file(parameter_cmd: str):
     with open(parameter_cmd) as config_handler:
         graph: defaultdict = defaultdict(list)
         start_node = config_handler.readline().split('=')[1].replace("\n", '')

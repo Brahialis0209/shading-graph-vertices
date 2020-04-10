@@ -9,8 +9,8 @@ from tests.parse import parser_tests
 
 
 def give_test_paths():
-    config_name = "config"
-    test_paths = parser_tests(config_name)
+    file_name = "test_file_paths"
+    test_paths = parser_tests(file_name)
     return test_paths
 
 

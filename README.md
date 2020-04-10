@@ -1,7 +1,7 @@
 # Instruction
 This application allows you to draw graph traversal algorithms in width and depth.
 ## Requirements
-- Python 3.6-3.8
+- Python 3.6-...
 - packages indicated in `requirements.txt`
 ## Install, run, uninstall
 - create a copy of the repository: `https://gitlab.com/Brahialis0209/shading-graph-vertices.git`
@@ -32,7 +32,7 @@ traversal=DFS<br>
 # Instruction in Russian
 Это приложение позволяет отрисовать алгоритмы обхода графа в ширину и глубину.
 ## Требования
-- Python 3.6-3.8
+- Python 3.6-...
 - пакеты, указанные в `requirements.txt`
 ## Установка, запуск, удаление
 - создайте копию репозитория: `https://gitlab.com/Brahialis0209/shading-graph-vertices.git`
