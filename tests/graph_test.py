@@ -5,7 +5,7 @@ sys.path.append('../')
 
 from src.alg.graph_traversal import traversal_graph
 from src.alg.pars_file import pars_config_file
-from tests.parse_test import parser_tests
+from tests.parse import parser_tests
 
 
 def give_test_paths():

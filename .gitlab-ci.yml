@@ -14,7 +14,7 @@ test:
     script:
         - echo "test started..."
         - cd tests
-        - python3 -m unittest -v main.py
+        - python3 -m unittest discover test "*_test.py"
         - echo "Example test over."
 
 
