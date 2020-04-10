@@ -1,6 +1,6 @@
 image: python:3-slim
 before_script:
-    - pip install -r requirements.txt
+    - pip3 install -r requirements.txt
 stages:
     - static_analysis
     - test
@@ -14,7 +14,7 @@ test:
     script:
         - echo "test started..."
         - cd tests
-        - python -m unittest -v main.py
+        - python3 -m unittest -v main.py
         - echo "Example test over."
 
 
