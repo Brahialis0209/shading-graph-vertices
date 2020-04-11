@@ -1,6 +1,6 @@
 def parser_tests(file_name):
-    with open(file_name) as config_handler:
+    with open(file_name) as paths_handler:
         paths = list()
-        for path in config_handler.readlines():
-            paths.append(path.replace('\n', ''))
+        for path in paths_handler.readlines():
+            paths.append(path.rstrip())
     return paths
