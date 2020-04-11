@@ -1,12 +1,15 @@
+from collections import deque
+
+
 class Queue:
     def __init__(self):
-        self.queue = list()
+        self.queue = deque()
 
     def put(self, element):
         self.queue.append(element)
 
     def pop(self):
-        return self.queue.pop(0)
+        return self.queue.popleft()
 
     def empty(self):
         return not bool(self.queue)
