@@ -2,7 +2,7 @@ from graphviz import Digraph
 import time
 
 
-def draw_graph(graph: dict, used: list):
+def draw_graph(graph: dict, used: set):
     dot = Digraph()
     paths = graph.items()
     time.sleep(1)
