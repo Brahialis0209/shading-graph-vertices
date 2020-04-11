@@ -5,17 +5,17 @@ from src.alg.stack import Stack
 
 def traversal_algorithm(graph: dict, start_element: str, container_type, draw: bool):
     container = container_type()
-    visited = set()
+    visited = dict()
     container.put(start_element)
     while not container.empty():
         work_node = container.pop()
-        visited.add(work_node)
+        visited[work_node] = work_node
         if draw:
-            draw_graph(graph, list(visited))
+            draw_graph(graph, list(visited.keys()))
         for adjacent_node in graph[work_node]:
             if adjacent_node not in visited:
                 container.put(adjacent_node)
-    return list(visited)
+    return list(visited.keys())
 
 
 def traversal_graph(graph, start_node, traversal, draw: bool):
