@@ -9,7 +9,7 @@ from tests.parse import parser_tests
 
 
 def give_test_paths():
-    file_name = "test_file_paths"
+    file_name = "tests/test_file_paths"
     test_paths = parser_tests(file_name)
     return test_paths
 
