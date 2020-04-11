@@ -13,7 +13,7 @@ test:
     stage: test
     script:
         - echo "test started..."
-        - python3 -m unittest discover -s shading-graph-vertices/tests
+        - python -m unittest discover 'tests/' '*_test.py'
         - echo "Example test over."
 
 
