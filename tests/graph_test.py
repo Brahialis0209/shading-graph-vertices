@@ -44,7 +44,7 @@ class TestTraversalGraph(unittest.TestCase):
         start_node, traversal, graph = pars_example_file(tests_path + test_name)
         visited = traversal_graph(graph, start_node, "DFS", False)
         self.assertEqual(len(visited), 3)
-        self.assertEqual(sorted(graph.keys()), sorted(visited))
+        self.assertEqual([1, 2, 3], sorted(visited))
 
 
 if __name__ == '__main__':
