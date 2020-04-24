@@ -18,11 +18,11 @@ This application allows you to draw graph traversal algorithms in width and dept
 if this vertex is not the beginning of a new edge.
 
 ### Example
-config:
+config:<br>
 start_node 1<br>
 traversal DFS<br>
 
-example:
+example:<br>
 1 2<br>
 1 3<br>
 1 4<br>
@@ -56,11 +56,11 @@ example:
 если эта вершина не является началом нового ребра.
 
 ### Пример
-config:
+config:<br>
 start_node 1<br>
 traversal DFS<br>
 
-example:
+example:<br>
 1 2<br>
 1 3<br>
 1 4<br>
