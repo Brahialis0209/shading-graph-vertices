@@ -12,4 +12,4 @@ class Queue:
         return self.queue.popleft()
 
     def empty(self):
-        return not bool(self.queue)
+        return not self.queue

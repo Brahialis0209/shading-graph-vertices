@@ -12,4 +12,4 @@ class Stack:
         return self.stack.pop()
 
     def empty(self):
-        return not bool(self.stack)
+        return not self.stack
