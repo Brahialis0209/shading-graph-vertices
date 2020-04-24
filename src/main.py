@@ -1,9 +1,7 @@
 import sys
-
-from src.alg.pars_args import arguments_parser
-
 sys.path.append('../')
 
+from src.alg.pars_args import arguments_parser
 from src.alg.graph_traversal import traversal_graph
 from src.alg.pars_file import parse_dates
 
