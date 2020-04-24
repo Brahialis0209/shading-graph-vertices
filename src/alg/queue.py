@@ -1,15 +1,7 @@
-from collections import deque
+from src.alg.container import Container
 
 
-class Queue:
-    def __init__(self):
-        self.queue = deque()
-
-    def put(self, element):
-        self.queue.append(element)
-
+class Queue(Container):
     def pop(self):
-        return self.queue.popleft()
+        return self.container.popleft()
 
-    def empty(self):
-        return not self.queue

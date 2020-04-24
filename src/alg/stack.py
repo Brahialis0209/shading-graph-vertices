@@ -1,15 +1,6 @@
-from collections import deque
+from src.alg.container import Container
 
 
-class Stack:
-    def __init__(self):
-        self.stack = deque()
-
-    def put(self, element):
-        self.stack.append(element)
-
+class Stack(Container):
     def pop(self):
-        return self.stack.pop()
-
-    def empty(self):
-        return not self.stack
+        return self.container.pop()
