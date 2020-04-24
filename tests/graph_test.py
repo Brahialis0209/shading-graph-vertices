@@ -17,7 +17,7 @@ class TestTraversalGraph(unittest.TestCase):
         traversal = "DFS"
         visited = traversal_graph(graph, start_node, traversal, False)
         self.assertEqual(len(visited), 8)
-        self.assertEqual(graph.keys().sort(), visited.sort())
+        self.assertEqual(sorted(graph.keys()), sorted(visited))
 
     def test_connected_graph_BFS(self):
         test_name = "connected_graph"
@@ -25,7 +25,7 @@ class TestTraversalGraph(unittest.TestCase):
         traversal = "BFS"
         visited = traversal_graph(graph, start_node, traversal, False)
         self.assertEqual(len(visited), 8)
-        self.assertEqual(graph.keys().sort(), visited.sort())
+        self.assertEqual(sorted(graph.keys()), sorted(visited))
 
 
 if __name__ == '__main__':
