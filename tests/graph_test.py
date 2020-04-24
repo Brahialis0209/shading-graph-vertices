@@ -5,30 +5,27 @@ sys.path.append('../')
 
 from src.alg.graph_traversal import traversal_graph
 from src.alg.pars_file import pars_example_file
-from tests.parse import parser_tests
 
-
-def give_test_paths():
-    file_name = "tests/test_file_paths"
-    test_paths = parser_tests(file_name)
-    return test_paths
+tests_path = "tests/dates/"
 
 
 class TestTraversalGraph(unittest.TestCase):
-    test_paths = give_test_paths()
 
-    def setUp(self):
-        self.test_path = self.test_paths.pop(0)
-
-    def test_first(self):
-        start_node, traversal, graph = pars_example_file(self.test_path)
+    def test_connected_graph_DFS(self):
+        test_name = "connected_graph"
+        start_node, traversal, graph = pars_example_file(tests_path + test_name)
+        traversal = "DFS"
         visited = traversal_graph(graph, start_node, traversal, False)
         self.assertEqual(len(visited), 8)
+        self.assertEqual(graph.keys().sort(), visited.sort())
 
-    def test_second(self):
-        start_node, traversal, graph = pars_example_file(self.test_path)
+    def test_connected_graph_BFS(self):
+        test_name = "connected_graph"
+        start_node, traversal, graph = pars_example_file(tests_path + test_name)
+        traversal = "BFS"
         visited = traversal_graph(graph, start_node, traversal, False)
         self.assertEqual(len(visited), 8)
+        self.assertEqual(graph.keys().sort(), visited.sort())
 
 
 if __name__ == '__main__':
