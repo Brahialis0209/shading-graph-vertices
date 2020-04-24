@@ -40,7 +40,5 @@ class TestTraversalGraph(unittest.TestCase):
         self.assertEqual(sorted(graph.keys()), sorted(visited))
 
 
-
-
 if __name__ == '__main__':
     unittest.main()
