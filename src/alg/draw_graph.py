@@ -5,7 +5,7 @@ import time
 def draw_graph(graph: dict, used: set):
     dot = Digraph()
     paths = graph.items()
-    time.sleep(2)
+    time.sleep(1)
     for path in paths:
         start_node = path[0]
         color = "red" if start_node in used else "black"

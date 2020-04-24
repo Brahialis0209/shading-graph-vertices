@@ -13,36 +13,36 @@ class TestTraversalGraph(unittest.TestCase):
 
     def test_connected_graph_DFS(self):
         test_name = "connected_graph"
-        start_node, traversal, graph = pars_example_file(tests_path + test_name)
-        visited = traversal_graph(graph, start_node, "DFS", False)
+        graph = pars_example_file(tests_path + test_name)
+        visited = traversal_graph(graph, '1', "DFS", False)
         self.assertEqual(len(visited), 8)
         self.assertEqual(sorted(graph.keys()), sorted(visited))
 
     def test_connected_graph_BFS(self):
         test_name = "connected_graph"
-        start_node, traversal, graph = pars_example_file(tests_path + test_name)
-        visited = traversal_graph(graph, start_node, "BFS", False)
+        graph = pars_example_file(tests_path + test_name)
+        visited = traversal_graph(graph, '1', "BFS", False)
         self.assertEqual(len(visited), 8)
         self.assertEqual(sorted(graph.keys()), sorted(visited))
 
     def test_long_graph_DFS(self):
         test_name = "long_graph"
-        start_node, traversal, graph = pars_example_file(tests_path + test_name)
-        visited = traversal_graph(graph, start_node, "DFS", False)
+        graph = pars_example_file(tests_path + test_name)
+        visited = traversal_graph(graph, '1', "DFS", False)
         self.assertEqual(len(visited), 7)
         self.assertEqual(sorted(graph.keys()), sorted(visited))
 
     def test_long_graph_BFS(self):
         test_name = "long_graph"
-        start_node, traversal, graph = pars_example_file(tests_path + test_name)
-        visited = traversal_graph(graph, start_node, "BFS", False)
+        graph = pars_example_file(tests_path + test_name)
+        visited = traversal_graph(graph, '1', "BFS", False)
         self.assertEqual(len(visited), 7)
         self.assertEqual(sorted(graph.keys()), sorted(visited))
 
     def test_unconnected_graph(self):
         test_name = "unconnected_graph"
-        start_node, traversal, graph = pars_example_file(tests_path + test_name)
-        visited = traversal_graph(graph, start_node, "DFS", False)
+        graph = pars_example_file(tests_path + test_name)
+        visited = traversal_graph(graph, '1', "DFS", False)
         self.assertEqual(len(visited), 3)
         self.assertEqual(['1', '2', '3'], sorted(visited))
 
