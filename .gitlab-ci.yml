@@ -9,7 +9,7 @@ stages:
 static_analysis:
     stage: static_analysis
     script:
-        - flake8 .flake8 src/*.py tests/*.py
+        - flake8 src/*.py tests/*.py
 test:
     stage: test
     script:
