@@ -39,6 +39,13 @@ class TestTraversalGraph(unittest.TestCase):
         self.assertEqual(len(visited), 7)
         self.assertEqual(sorted(graph.keys()), sorted(visited))
 
+    def test_unconnected_graph(self):
+        test_name = "unconnected_graph"
+        start_node, traversal, graph = pars_example_file(tests_path + test_name)
+        visited = traversal_graph(graph, start_node, "DFS", False)
+        self.assertEqual(len(visited), 3)
+        self.assertEqual(sorted(graph.keys()), sorted(visited))
+
 
 if __name__ == '__main__':
     unittest.main()

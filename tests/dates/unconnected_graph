@@ -1,0 +1,5 @@
+start_node 1
+traversal BFS
+1 2
+2 3
+4 5
