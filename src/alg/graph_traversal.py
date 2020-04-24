@@ -8,11 +8,11 @@ def traversal_algorithm(graph: dict, start_element: str, container_type, draw: b
     visited = set()
     container.put(start_element)
     while not container.empty():
-        work_node = container.pop()
-        visited.add(work_node)
+        cur_node = container.pop()
+        visited.add(cur_node)
         if draw:
             draw_graph(graph, visited)
-        for adjacent_node in graph[work_node]:
+        for adjacent_node in graph[cur_node]:
             if adjacent_node not in visited:
                 container.put(adjacent_node)
     return list(visited)
